@@ -6,13 +6,15 @@
  * @counter: line count
  *
  * Return: nothing
+ */
+void f_queue(stack_t **head, unsigned int counter)
+{
+	unsigned int i;
+	(void)head;
 
- void f_queue(stack_t **head, unsigned int counter)
- {
- (void)head;
- (void)counter;
- bus.lifi = 1;
- }*/
+	while (i < counter)
+		i++;
+}
 
 /**
  * addqueue - function that add node to the tail the queue
