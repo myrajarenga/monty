@@ -13,7 +13,7 @@ void pint(stack_t **head, unsigned int q)
 		exit(EXIT_FAILURE);
 	}
 	else
-	{	
+	{
 		printf("%d\n", (*head)->n);
 	}
 }
