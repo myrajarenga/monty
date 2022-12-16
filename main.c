@@ -3,7 +3,7 @@
  * main - entry point of the program
  * @argv:pointer to arguments
  * @argc: number of arguments
- * Return: 0
+ * Return: 0 on sucees
  */
 int main(int argc, char **argv)
 {

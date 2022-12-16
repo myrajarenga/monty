@@ -10,6 +10,10 @@ void get_func(char *command, stack_t **head, unsigned int n)
 	unsigned int i = 0;
 	instruction_t commands[] = {
 		{"push", push}, {"pall", pall},
+		{"pint", pint}, {"pop", pop},
+		{"swap", swap}, {"add", add},
+		{"nop", nop}, {"sub", sub},
+		{"queue", addqueue},
 		{NULL, NULL}
 	};
 	while (commands[i].opcode != NULL)

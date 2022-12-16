@@ -42,8 +42,9 @@ void pall(stack_t **head, unsigned int n);
 void pint(stack_t **head, unsigned int q);
 void pop(stack_t **head, unsigned int n);
 void swap(stack_t **head, unsigned int n);
-
-
-
+void addqueue(stack_t **head, unsigned int n);
+void add(stack_t **head, unsigned int number);
+void nop(stack_t **head, unsigned int number);
+void sub(stack_t **head, unsigned int number);
 
 #endif
