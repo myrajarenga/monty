@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * freestack - frees stack
  * @head: pointer to stack

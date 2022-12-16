@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * get_func - checks string and executes the appropriate function
  * @command: command to execute

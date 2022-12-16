@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
  * f_queue - function that prints the top of the queue
  * @head: head of queue
@@ -15,7 +14,6 @@ void f_queue(stack_t **head, unsigned int counter)
 	while (i < counter)
 		i++;
 }
-
 /**
  * addqueue - function that add node to the tail the queue
  * @n: new value
