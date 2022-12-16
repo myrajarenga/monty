@@ -15,8 +15,11 @@ void sub(stack_t **head, unsigned int number)
 		fprintf(stderr, "L%d: can't sub, stack too short", number);
 		exit(EXIT_FAILURE);
 	}
-	value = 0;
-	value += (*head)->n;
-	pop(head, number);
-	(*head)->n -= value;
+	else
+	{
+		value = 0;
+		value += (*head)->n;
+		pop(head, number);
+		(*head)->n -= value;
+	}
 }

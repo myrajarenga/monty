@@ -15,9 +15,11 @@ void add(stack_t **head, unsigned int number)
 		fprintf(stderr, "L%d: can't add, stack too short\n", number);
 		exit(EXIT_FAILURE);
 	}
-
-	value = 0;
-	value += (*head)->n;
-	pop(head, number);
-	(*head)->n += value;
+	else
+	{
+		value = 0;
+		value += (*head)->n;
+		pop(head, number);
+		(*head)->n += value;
+	}
 }

@@ -15,7 +15,10 @@ void pop(stack_t **head, unsigned int n)
 		fprintf(stderr, "L%d: can't pop an empty stack\n", n);
 		exit(EXIT_FAILURE);
 	}
-	temp = *head;
-	(*head) = (*head)->next;
+	else
+	{
+		temp = *head;
+		(*head) = (*head)->next;
+	}
 	free(temp);
 }
