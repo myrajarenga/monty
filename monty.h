@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #ifndef __MONTY__
 #define __MONTY__
 #include <stdio.h>
@@ -38,7 +39,7 @@ typedef struct instruction_s
 void get_func(char *command, stack_t **head, unsigned int n);
 void push(stack_t **head, unsigned int n);
 void pall(stack_t **head, unsigned int n);
-void pint(stack_t **head, unsigned int n);
+void pint(stack_t **head, unsigned int q);
 void pop(stack_t **head, unsigned int n);
 void swap(stack_t **head, unsigned int n);
 
