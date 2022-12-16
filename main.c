@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	if (fp == NULL)
 	{
 		fprintf(stderr, "Error: Cant open file %s\n", argv[1]);
-		exit(EXIT_FAILURE);	
+		exit(EXIT_FAILURE);
 	}
 	while (getline(&buff, &len, fp) != -1)
 	{

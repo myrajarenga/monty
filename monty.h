@@ -47,4 +47,5 @@ void add(stack_t **head, unsigned int number);
 void nop(stack_t **head, unsigned int number);
 void sub(stack_t **head, unsigned int number);
 void f_queue(stack_t **head, unsigned int counter);
+void freestack(stack_t *head);
 #endif
